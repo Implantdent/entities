@@ -59,7 +59,7 @@ jobs:
       run: ./.sonar/scanner/dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
 
     - name: Crear el paquete Nuget
-      if: ${{ github.ref_name == 'dev' || github.ref_name == 'test' }}
+      if: ${{ github.ref_name == 'dev' || github.ref_name == 'qa' }}
       run: dotnet pack -c Release -p:PackageVersion=${{ env.version }}-${{ env.versionSuffix }} ${{ env.solution }}.sln
 
     - name: Crear el paquete Nuget
@@ -67,7 +67,7 @@ jobs:
       run: dotnet pack -c Release -p:PackageVersion=${{ env.version }} ${{ env.solution }}.sln
 
     - name: Construir artefacto
-      if: ${{ github.ref_name == 'dev' || github.ref_name == 'test' }}
+      if: ${{ github.ref_name == 'dev' || github.ref_name == 'qa' }}
       run: dotnet nuget push ${{ env.solution }}/bin/Release/${{ env.solution }}.${{ env.version }}-${{ env.versionSuffix }}.nupkg  --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/implantdent/index.json"
 
     - name: Construir artefacto

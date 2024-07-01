@@ -1,24 +1,24 @@
 ﻿namespace Entities
 {
     /// <summary>
-    /// Capítulo de la CIE versión 10
+    /// Tipo de pregunta realizada en la historia clínica
     /// </summary>
-    public class ChapterCie10
+    public class QuestionType
     {
         /// <summary>
-        /// Identificador del capítulo
+        /// Identificador del tipo de pregunta
         /// </summary>
         public short Id { get; set; }
 
         /// <summary>
-        /// Nombre del capítulo
+        /// Nombre del tipo de pregunta
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// Inicializa el objeto con valoes por defecto
+        /// Inicializa el objeto con valores por defecto
         /// </summary>
-        public ChapterCie10()
+        public QuestionType()
         {
             Id = 0;
             Name = string.Empty;
