@@ -20,6 +20,11 @@ jobs:
         java-version: 17
         distribution: oracle
     
+    - name: Descarga del código
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
     - name: Cache de paquetes SonarCloud
       uses: actions/cache@v3
       with:
@@ -41,11 +46,6 @@ jobs:
       
     - name: Inicializar SonarQube
       run: ./.sonar/scanner/dotnet-sonarscanner begin /k:"Implantdent_entities" /o:"implantdent" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml
-
-    - name: Descarga del código
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
 
     - name: Compilar la solución
       run: dotnet build ${{ env.solution }}.sln -c Debug
