@@ -1,24 +1,24 @@
 ﻿namespace Entities
 {
     /// <summary>
-    /// Capítulo de la CIE versión 10
+    /// Relación con un paciente
     /// </summary>
-    public class ChapterCie10
+    public class Relationship
     {
         /// <summary>
-        /// Identificador del capítulo
+        /// Identificador de la relación
         /// </summary>
         public short Id { get; set; }
 
         /// <summary>
-        /// Nombre del capítulo
+        /// Nombre de la relación
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// Inicializa el objeto con valoes por defecto
+        /// Inicializa el objeto con valores por defecto
         /// </summary>
-        public ChapterCie10()
+        public Relationship()
         {
             Id = 0;
             Name = string.Empty;

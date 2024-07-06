@@ -1,26 +1,32 @@
 ﻿namespace Entities
 {
     /// <summary>
-    /// Capítulo de la CIE versión 10
+    /// Entidad promotora de salud
     /// </summary>
-    public class ChapterCie10
+    public class Eps
     {
         /// <summary>
-        /// Identificador del capítulo
+        /// Identificador de la eps
         /// </summary>
         public short Id { get; set; }
 
         /// <summary>
-        /// Nombre del capítulo
+        /// Código de la eps
+        /// </summary>
+        public string Code { get; set; }
+
+        /// <summary>
+        /// Nombre de la eps
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// Inicializa el objeto con valoes por defecto
+        /// Inicializa el objeto con valores por defecto
         /// </summary>
-        public ChapterCie10()
+        public Eps()
         {
             Id = 0;
+            Code = string.Empty;
             Name = string.Empty;
         }
     }

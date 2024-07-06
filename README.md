@@ -24,9 +24,9 @@ El despliegue se ejecuta en
 
 | Rama | NuGet |
 |:-:|:-:|
-| dev | Entites1.0.X-dev |
-| qa | Entites1.0.X-qa |
-| main | Entites1.0.X |
+| dev | Entites 1.0.X-dev |
+| qa | Entites 1.0.X-qa |
+| main | Entites 1.0.X |
 
 ## Lenguaje
 

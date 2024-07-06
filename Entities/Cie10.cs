@@ -1,27 +1,36 @@
 ﻿namespace Entities
 {
     /// <summary>
-    /// Capítulo de la CIE versión 10
+    /// CIE versión 10
     /// </summary>
-    public class ChapterCie10
+    public class Cie10
     {
         /// <summary>
-        /// Identificador del capítulo
+        /// Identificador de la enfermedad
         /// </summary>
         public short Id { get; set; }
 
         /// <summary>
-        /// Nombre del capítulo
+        /// Código de la enfermedad
+        /// </summary>
+        public string Code { get; set; }
+
+        /// <summary>
+        /// Nombre de la enfermedad
         /// </summary>
         public string Name { get; set; }
+
+        public SubGroupCie10 SubGroupCie10 { get; set; }
 
         /// <summary>
         /// Inicializa el objeto con valoes por defecto
         /// </summary>
-        public ChapterCie10()
+        public Cie10()
         {
             Id = 0;
+            Code = string.Empty;
             Name = string.Empty;
+            SubGroupCie10 = new SubGroupCie10();
         }
     }
 }

@@ -1,0 +1,33 @@
+﻿namespace Entities
+{
+    /// <summary>
+    /// Medicamento formulado por el profesional en salud
+    /// </summary>
+    public class Cum
+    {
+        /// <summary>
+        /// Identificador del medicamento
+        /// </summary>
+        public short Id { get; set; }
+
+        /// <summary>
+        /// Código del medicamento
+        /// </summary>
+        public string Code { get; set; }
+
+        /// <summary>
+        /// Nombre del medicamento
+        /// </summary>
+        public string Name { get; set; }
+
+        /// <summary>
+        /// Inicializa el objeto con valores por defecto
+        /// </summary>
+        public Cum()
+        {
+            Id = 0;
+            Code = string.Empty;
+            Name = string.Empty;
+        }
+    }
+}

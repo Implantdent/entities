@@ -1,26 +1,32 @@
 ﻿namespace Entities
 {
     /// <summary>
-    /// Capítulo de la CIE versión 10
+    /// País
     /// </summary>
-    public class ChapterCie10
+    public class Country
     {
         /// <summary>
-        /// Identificador del capítulo
+        /// Identificador del país
         /// </summary>
         public short Id { get; set; }
 
         /// <summary>
-        /// Nombre del capítulo
+        /// Código del país
+        /// </summary>
+        public string Code { get; set; }
+
+        /// <summary>
+        /// Nombre del país
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// Inicializa el objeto con valoes por defecto
+        /// Inicializa el objeto con valores por defecto
         /// </summary>
-        public ChapterCie10()
+        public Country()
         {
             Id = 0;
+            Code = string.Empty;
             Name = string.Empty;
         }
     }
