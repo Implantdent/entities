@@ -1,26 +1,32 @@
 ﻿namespace Entities
 {
     /// <summary>
-    /// Capítulo de la CIE versión 10
+    /// Unidad mímina de medicamento dispensada
     /// </summary>
-    public class ChapterCie10
+    public class Upr
     {
         /// <summary>
-        /// Identificador del capítulo
+        /// Identificador de la unidad
         /// </summary>
         public short Id { get; set; }
 
         /// <summary>
-        /// Nombre del capítulo
+        /// Código de la unidad
+        /// </summary>
+        public short Code { get; set; }
+
+        /// <summary>
+        /// Nombre de la unidad
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// Inicializa el objeto con valoes por defecto
+        /// Inicializa el objeto con valores por defecto
         /// </summary>
-        public ChapterCie10()
+        public Upr()
         {
             Id = 0;
+            Code = 0;
             Name = string.Empty;
         }
     }
