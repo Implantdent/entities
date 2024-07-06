@@ -1,39 +1,36 @@
 ﻿namespace Entities
 {
     /// <summary>
-    /// Departamento de un país
+    /// CIE versión 10
     /// </summary>
-    public class State
+    public class Cie10
     {
         /// <summary>
-        /// Identificador del departamento
+        /// Identificador de la enfermedad
         /// </summary>
         public short Id { get; set; }
 
         /// <summary>
-        /// País al que pertenece el departamento
-        /// </summary>
-        public Country Country { get; set; }
-
-        /// <summary>
-        /// Código del departamento
+        /// Código de la enfermedad
         /// </summary>
         public string Code { get; set; }
 
         /// <summary>
-        /// Nombre del departamento
+        /// Nombre de la enfermedad
         /// </summary>
         public string Name { get; set; }
 
+        public SubGroupCie10 SubGroupCie10 { get; set; }
+
         /// <summary>
-        /// Inicializa el objeto con valores por defecto
+        /// Inicializa el objeto con valoes por defecto
         /// </summary>
-        public State()
+        public Cie10()
         {
             Id = 0;
-            Country = new Country();
             Code = string.Empty;
             Name = string.Empty;
+            SubGroupCie10 = new SubGroupCie10();
         }
     }
 }

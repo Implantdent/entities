@@ -388,5 +388,173 @@ namespace Entities.Test
             //Assert
             Assert.IsType<ZoneType>(new ZoneType());
         }
+
+        /// <summary>
+        /// Prueba la creación de una enfermedad
+        /// </summary>
+        [Fact]
+        public void Cie10Test()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<Cie10>(new Cie10());
+        }
+
+        /// <summary>
+        /// Prueba la creación de una ciudad
+        /// </summary>
+        [Fact]
+        public void CityTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<City>(new City());
+        }
+
+        /// <summary>
+        /// Prueba la creación de una pregunta de historia clínica
+        /// </summary>
+        [Fact]
+        public void ClinicHistoryQuestionTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<ClinicHistoryQuestion>(new ClinicHistoryQuestion());
+        }
+
+        /// <summary>
+        /// Prueba la creación de un médico
+        /// </summary>
+        [Fact]
+        public void DoctorTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<Doctor>(new Doctor());
+        }
+
+        /// <summary>
+        /// Prueba la creación de un estado civil
+        /// </summary>
+        [Fact]
+        public void CivilStateTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<CivilState>(new CivilState());
+        }
+
+        /// <summary>
+        /// Prueba la creación de un paciente
+        /// </summary>
+        [Fact]
+        public void PatientTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<Patient>(new Patient());
+        }
+
+        /// <summary>
+        /// Prueba la creación de una historia clínica
+        /// </summary>
+        [Fact]
+        public void ClinicHistoryTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<ClinicHistory>(new ClinicHistory());
+        }
+
+        /// <summary>
+        /// Prueba la creación de una urgencia
+        /// </summary>
+        [Fact]
+        public void EmergencyTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<Emergency>(new Emergency());
+        }
+
+        /// <summary>
+        /// Prueba la creación de un antecedente familiar
+        /// </summary>
+        [Fact]
+        public void FamilyBackgroundTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<FamilyBackground>(new FamilyBackground());
+        }
+
+        /// <summary>
+        /// Prueba la creación de un medicamento
+        /// </summary>
+        [Fact]
+        public void MedicineTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<Medicine>(new Medicine());
+        }
+
+        /// <summary>
+        /// Prueba la creación de una respuesta de antecedente personal
+        /// </summary>
+        [Fact]
+        public void PersonalBackgroundAnswerTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<PersonalBackgroundAnswer>(new PersonalBackgroundAnswer());
+        }
+
+        /// <summary>
+        /// Prueba la creación de un procedimiento a un paciente
+        /// </summary>
+        [Fact]
+        public void ProcedureToPatientTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<ProcedureToPatient>(new ProcedureToPatient());
+        }
+
+        /// <summary>
+        /// Prueba la creación de una consulta a un paciente
+        /// </summary>
+        [Fact]
+        public void QueryTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<Query>(new Query());
+        }
+
+        /// <summary>
+        /// Prueba la creación de una cotización
+        /// </summary>
+        [Fact]
+        public void QuoteTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<Quote>(new Quote());
+        }
     }
 }

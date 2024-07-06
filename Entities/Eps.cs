@@ -1,37 +1,31 @@
 ﻿namespace Entities
 {
     /// <summary>
-    /// Departamento de un país
+    /// Entidad promotora de salud
     /// </summary>
-    public class State
+    public class Eps
     {
         /// <summary>
-        /// Identificador del departamento
+        /// Identificador de la eps
         /// </summary>
         public short Id { get; set; }
 
         /// <summary>
-        /// País al que pertenece el departamento
-        /// </summary>
-        public Country Country { get; set; }
-
-        /// <summary>
-        /// Código del departamento
+        /// Código de la eps
         /// </summary>
         public string Code { get; set; }
 
         /// <summary>
-        /// Nombre del departamento
+        /// Nombre de la eps
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
         /// Inicializa el objeto con valores por defecto
         /// </summary>
-        public State()
+        public Eps()
         {
             Id = 0;
-            Country = new Country();
             Code = string.Empty;
             Name = string.Empty;
         }

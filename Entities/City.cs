@@ -1,37 +1,37 @@
 ﻿namespace Entities
 {
     /// <summary>
-    /// Departamento de un país
+    /// Ciudad de un departamento de un país
     /// </summary>
-    public class State
+    public class City
     {
         /// <summary>
-        /// Identificador del departamento
+        /// Identificador de la ciudad
         /// </summary>
         public short Id { get; set; }
 
         /// <summary>
-        /// País al que pertenece el departamento
+        /// Departamento al que pertenece la ciudad
         /// </summary>
-        public Country Country { get; set; }
+        public State State { get; set; }
 
         /// <summary>
-        /// Código del departamento
+        /// Código de la ciudad
         /// </summary>
         public string Code { get; set; }
 
         /// <summary>
-        /// Nombre del departamento
+        /// Nombre de la ciudad
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
         /// Inicializa el objeto con valores por defecto
         /// </summary>
-        public State()
+        public City()
         {
             Id = 0;
-            Country = new Country();
+            State = new State();
             Code = string.Empty;
             Name = string.Empty;
         }
