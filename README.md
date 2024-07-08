@@ -34,7 +34,9 @@ C# .Net 8
 
 ## Librerías y paquetes
 
-El proyecto no requiere librerías ni paquetes adicionales
+| Paquete | Versión |
+|:-:|:-:|
+| xUnit | 2.5.3 |
 
 ## Compilar y probar
 
