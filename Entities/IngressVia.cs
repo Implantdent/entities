@@ -3,7 +3,7 @@
     /// <summary>
     /// Vía de ingreso de un paciente
     /// </summary>
-    public class IngressVia
+    public class IngressVia : IEntity
     {
         /// <summary>
         /// Identificador de la vía de ingreso

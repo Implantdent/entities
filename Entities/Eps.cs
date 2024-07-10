@@ -3,7 +3,7 @@
     /// <summary>
     /// Entidad promotora de salud
     /// </summary>
-    public class Eps
+    public class Eps : IEntity
     {
         /// <summary>
         /// Identificador de la eps

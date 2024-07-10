@@ -3,7 +3,7 @@
     /// <summary>
     /// Tipo de pago realizado por el paciente
     /// </summary>
-    public class PaymentType
+    public class PaymentType : IEntity
     {
         /// <summary>
         /// Identificador del tipo de pago

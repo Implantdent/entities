@@ -3,7 +3,7 @@
     /// <summary>
     /// Finalidad de una atención en salud
     /// </summary>
-    public class Finality
+    public class Finality : IEntity
     {
         /// <summary>
         /// Identificador de la finalidad

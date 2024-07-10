@@ -3,7 +3,7 @@
     /// <summary>
     /// Medicamento formulado por el profesional en salud
     /// </summary>
-    public class Cum
+    public class Cum : IEntity
     {
         /// <summary>
         /// Identificador del medicamento

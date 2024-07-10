@@ -3,7 +3,7 @@
     /// <summary>
     /// Cotización realizada a un posible paciente
     /// </summary>
-    public class Quote
+    public class Quote : IEntity
     {
         /// <summary>
         /// Identificador de la cotización

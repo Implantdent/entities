@@ -3,7 +3,7 @@
     /// <summary>
     /// Relación con un paciente
     /// </summary>
-    public class Relationship
+    public class Relationship : IEntity
     {
         /// <summary>
         /// Identificador de la relación

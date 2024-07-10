@@ -3,7 +3,7 @@
     /// <summary>
     /// Pregunta de antecedentes de salud personales
     /// </summary>
-    public class PersonalBackgroundQuestion
+    public class PersonalBackgroundQuestion : IEntity
     {
         /// <summary>
         /// Identificador de la pregunta

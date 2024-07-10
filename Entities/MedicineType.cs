@@ -3,7 +3,7 @@
     /// <summary>
     /// Tipo de medicamento
     /// </summary>
-    public class MedicineType
+    public class MedicineType : IEntity
     {
         /// <summary>
         /// Identificador del tipo de medicamento

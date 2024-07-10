@@ -3,7 +3,7 @@
     /// <summary>
     /// Pregunta de la historia clínica
     /// </summary>
-    public class ClinicHistoryQuestion
+    public class ClinicHistoryQuestion : IEntity
     {
         /// <summary>
         /// Identificador de la pregunta

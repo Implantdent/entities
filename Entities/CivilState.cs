@@ -3,7 +3,7 @@
     /// <summary>
     /// Estado civil de un paciente
     /// </summary>
-    public class CivilState
+    public class CivilState : IEntity
     {
         /// <summary>
         /// Identificador del estado civil

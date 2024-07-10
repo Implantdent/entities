@@ -3,7 +3,7 @@
     /// <summary>
     /// Profesional de la salud que atiende un paciente
     /// </summary>
-    public class Doctor
+    public class Doctor : IEntity
     {
         /// <summary>
         /// Identificador del médico

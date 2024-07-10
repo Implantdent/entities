@@ -3,7 +3,7 @@
     /// <summary>
     /// Capítulo de la CIE versión 10
     /// </summary>
-    public class ChapterCie10
+    public class ChapterCie10 : IEntity
     {
         /// <summary>
         /// Identificador del capítulo

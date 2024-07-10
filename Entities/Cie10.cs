@@ -3,7 +3,7 @@
     /// <summary>
     /// CIE versión 10
     /// </summary>
-    public class Cie10
+    public class Cie10 : IEntity
     {
         /// <summary>
         /// Identificador de la enfermedad

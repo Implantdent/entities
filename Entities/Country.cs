@@ -3,7 +3,7 @@
     /// <summary>
     /// País
     /// </summary>
-    public class Country
+    public class Country : IEntity
     {
         /// <summary>
         /// Identificador del país

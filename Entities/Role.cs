@@ -3,7 +3,7 @@
     /// <summary>
     /// Rol de la aplicación
     /// </summary>
-    public class Role
+    public class Role : IEntity
     {
         /// <summary>
         /// Identificador del rol

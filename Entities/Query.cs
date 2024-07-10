@@ -3,7 +3,7 @@
     /// <summary>
     /// Consulta ejecutada sobre un paciente
     /// </summary>
-    public class Query
+    public class Query : IEntity
     {
         /// <summary>
         /// Identificador de la consulta

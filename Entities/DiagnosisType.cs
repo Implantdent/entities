@@ -3,7 +3,7 @@
     /// <summary>
     /// Tipo de diagnóstico realizado en una consulta
     /// </summary>
-    public class DiagnosisType
+    public class DiagnosisType : IEntity
     {
         /// <summary>
         /// Identificador del tipo de diagnóstico
