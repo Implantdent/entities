@@ -3,7 +3,7 @@
     /// <summary>
     /// Atención de urgencia de un paciente
     /// </summary>
-    public class Emergency
+    public class Emergency : IEntity
     {
         /// <summary>
         /// Identificador de la urgencia

@@ -3,7 +3,7 @@
     /// <summary>
     /// Grupo del CIE versión 10
     /// </summary>
-    public class GroupCie10
+    public class GroupCie10 : IEntity
     {
         /// <summary>
         /// Identificador del grupo

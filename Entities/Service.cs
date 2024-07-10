@@ -3,7 +3,7 @@
     /// <summary>
     /// Servicio prestado sobre un paciente
     /// </summary>
-    public class Service
+    public class Service : IEntity
     {
         /// <summary>
         /// Identificador del servicio

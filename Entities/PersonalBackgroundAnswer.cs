@@ -3,7 +3,7 @@
     /// <summary>
     /// Respuesta de pregunta de antecedentes de salud personales
     /// </summary>
-    public class PersonalBackgroundAnswer
+    public class PersonalBackgroundAnswer : IEntity
     {
         /// <summary>
         /// Identificador de la respuesta

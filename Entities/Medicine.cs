@@ -3,7 +3,7 @@
     /// <summary>
     /// Medicamento recetado a un paciente
     /// </summary>
-    public class Medicine
+    public class Medicine : IEntity
     {
         /// <summary>
         /// Identificador del medicamento

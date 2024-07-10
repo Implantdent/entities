@@ -3,7 +3,7 @@
     /// <summary>
     /// Ciudad de un departamento de un país
     /// </summary>
-    public class City
+    public class City : IEntity
     {
         /// <summary>
         /// Identificador de la ciudad

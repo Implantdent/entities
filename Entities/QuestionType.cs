@@ -3,7 +3,7 @@
     /// <summary>
     /// Tipo de pregunta realizada en la historia clínica
     /// </summary>
-    public class QuestionType
+    public class QuestionType : IEntity
     {
         /// <summary>
         /// Identificador del tipo de pregunta

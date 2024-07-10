@@ -3,7 +3,7 @@
     /// <summary>
     /// Forma en que se entrega un medicamento
     /// </summary>
-    public class Ffm
+    public class Ffm : IEntity
     {
         /// <summary>
         /// Identificador de la forma

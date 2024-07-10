@@ -3,7 +3,7 @@
     /// <summary>
     /// Departamento de un país
     /// </summary>
-    public class State
+    public class State : IEntity
     {
         /// <summary>
         /// Identificador del departamento

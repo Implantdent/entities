@@ -3,7 +3,7 @@
     /// <summary>
     /// Modalidad de la prestación del servicio de salud
     /// </summary>
-    public class Modality
+    public class Modality : IEntity
     {
         /// <summary>
         /// Identificador de la prestación del servicio de salud

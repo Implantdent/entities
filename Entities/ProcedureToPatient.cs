@@ -3,7 +3,7 @@
     /// <summary>
     /// Procedimiento ejecutado sobre un paciente
     /// </summary>
-    public class ProcedureToPatient
+    public class ProcedureToPatient : IEntity
     {
         /// <summary>
         /// Identificador del procedimiento

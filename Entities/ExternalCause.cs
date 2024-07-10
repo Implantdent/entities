@@ -3,7 +3,7 @@
     /// <summary>
     /// Causa o motivo de la atención en salud
     /// </summary>
-    public class ExternalCause
+    public class ExternalCause : IEntity
     {
         /// <summary>
         /// Identificador de la causa

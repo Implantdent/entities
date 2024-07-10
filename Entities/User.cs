@@ -3,7 +3,7 @@
     /// <summary>
     /// Usuario de la aplicación
     /// </summary>
-    public class User
+    public class User : IEntity
     {
         /// <summary>
         /// Identificador del usuario
