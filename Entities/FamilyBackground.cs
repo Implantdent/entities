@@ -3,7 +3,7 @@
     /// <summary>
     /// Antecedente familiar
     /// </summary>
-    public class FamilyBackground
+    public class FamilyBackground : IEntity
     {
         /// <summary>
         /// Identificador del antecedente familiar

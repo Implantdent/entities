@@ -3,7 +3,7 @@
     /// <summary>
     /// Tipo de zona en una ubicación geográfica
     /// </summary>
-    public class ZoneType
+    public class ZoneType : IEntity
     {
         /// <summary>
         /// Identificador de la zona

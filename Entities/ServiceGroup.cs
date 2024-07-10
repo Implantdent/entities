@@ -3,7 +3,7 @@
     /// <summary>
     /// Grupo de servicios prestado sobre un paciente
     /// </summary>
-    public class ServiceGroup
+    public class ServiceGroup : IEntity
     {
         /// <summary>
         /// Identificador del grupo de servicio

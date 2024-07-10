@@ -3,7 +3,7 @@
     /// <summary>
     /// Subgrupo del CIE versión 10
     /// </summary>
-    public class SubGroupCie10
+    public class SubGroupCie10 : IEntity
     {
         /// <summary>
         /// Identificador del subgrupo

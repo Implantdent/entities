@@ -3,7 +3,7 @@
     /// <summary>
     /// Unidad mímina de medicamento dispensada
     /// </summary>
-    public class Upr
+    public class Upr : IEntity
     {
         /// <summary>
         /// Identificador de la unidad

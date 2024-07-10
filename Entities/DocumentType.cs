@@ -3,7 +3,7 @@
     /// <summary>
     /// Tipo de documento de identificación
     /// </summary>
-    public class DocumentType
+    public class DocumentType : IEntity
     {
         /// <summary>
         /// Identificador del tipo de documento

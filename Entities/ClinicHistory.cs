@@ -3,7 +3,7 @@
     /// <summary>
     /// Historia clínica
     /// </summary>
-    public class ClinicHistory
+    public class ClinicHistory : IEntity
     {
         /// <summary>
         /// Identificador de la historia clínica

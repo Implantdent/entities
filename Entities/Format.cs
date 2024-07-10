@@ -3,7 +3,7 @@
     /// <summary>
     /// Formato de documento que debe firmar el paciente
     /// </summary>
-    public class Format
+    public class Format : IEntity
     {
         /// <summary>
         /// Identificador del formato

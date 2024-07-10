@@ -3,7 +3,7 @@
     /// <summary>
     /// Parámetro de la aplicación
     /// </summary>
-    public class Parameter
+    public class Parameter : IEntity
     {
         /// <summary>
         /// Identificador del parámetro

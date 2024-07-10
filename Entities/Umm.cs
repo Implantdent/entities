@@ -3,7 +3,7 @@
     /// <summary>
     /// Unidad de medida de un medicamento
     /// </summary>
-    public class Umm
+    public class Umm : IEntity
     {
         /// <summary>
         /// Identificador de la unidad de medida

@@ -3,7 +3,7 @@
     /// <summary>
     /// Medicamento alternativo formulado por el profesional en salud
     /// </summary>
-    public class Ium
+    public class Ium : IEntity
     {
         /// <summary>
         /// Identificador del medicamento

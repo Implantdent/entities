@@ -3,7 +3,7 @@
     /// <summary>
     /// Tipo de servicio en salud que no está dentro de los establecidos
     /// </summary>
-    public class OtherServiceType
+    public class OtherServiceType : IEntity
     {
         /// <summary>
         /// Identificador del tipo de servicio

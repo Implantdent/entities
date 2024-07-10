@@ -3,7 +3,7 @@
     /// <summary>
     /// Destino del paciente luego de salir de urgencias u hospitalización
     /// </summary>
-    public class DestinyPatient
+    public class DestinyPatient : IEntity
     {
         /// <summary>
         /// Identificador del destino

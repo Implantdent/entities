@@ -3,7 +3,7 @@
     /// <summary>
     /// Género del paciente
     /// </summary>
-    public class Genre
+    public class Genre : IEntity
     {
         /// <summary>
         /// Identificador del género

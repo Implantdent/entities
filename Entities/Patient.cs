@@ -3,7 +3,7 @@
     /// <summary>
     /// Paciente
     /// </summary>
-    public class Patient
+    public class Patient : IEntity
     {
         /// <summary>
         /// Identificador del paciente

@@ -3,7 +3,7 @@
     /// <summary>
     /// Tipo de paciente
     /// </summary>
-    public class PatientType
+    public class PatientType : IEntity
     {
         /// <summary>
         /// Identificador del tipo de paciente
