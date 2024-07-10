@@ -556,5 +556,17 @@ namespace Entities.Test
             //Assert
             Assert.IsType<Quote>(new Quote());
         }
+
+        /// <summary>
+        /// Prueba la creación de un rol
+        /// </summary>
+        [Fact]
+        public void RoleTest()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<Role>(new Role());
+        }
     }
 }
