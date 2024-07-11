@@ -9,7 +9,7 @@ namespace Entities.Test
         /// Prueba la creación de un capítulo de la CIE versión 10
         /// </summary>
         [Fact]
-        public void ChapterCie10Test()
+        public void Create_ChapterCie10_Ok()
         {
             //Arrange
             //Act
@@ -21,7 +21,7 @@ namespace Entities.Test
         /// Prueba la creación de un país
         /// </summary>
         [Fact]
-        public void CountryTest()
+        public void Create_Country_Ok()
         {
             //Arrange
             //Act
@@ -33,7 +33,7 @@ namespace Entities.Test
         /// Prueba la creación de un medicamento
         /// </summary>
         [Fact]
-        public void CumTest()
+        public void Create_Cum_Ok()
         {
             //Arrange
             //Act
@@ -45,7 +45,7 @@ namespace Entities.Test
         /// Prueba la creación de un destino
         /// </summary>
         [Fact]
-        public void DestinyPatientTest()
+        public void Create_DestinyPatient_Ok()
         {
             //Arrange
             //Act
@@ -57,7 +57,7 @@ namespace Entities.Test
         /// Prueba la creación de un tipo de diagnóstico
         /// </summary>
         [Fact]
-        public void DiagnosisTypeTest()
+        public void Create_DiagnosisType_Ok()
         {
             //Arrange
             //Act
@@ -69,7 +69,7 @@ namespace Entities.Test
         /// Prueba la creación de un tipo de documento
         /// </summary>
         [Fact]
-        public void DocumentTypeTest()
+        public void Create_DocumentType_Ok()
         {
             //Arrange
             //Act
@@ -81,7 +81,7 @@ namespace Entities.Test
         /// Prueba la creación de una causa de atención
         /// </summary>
         [Fact]
-        public void ExternalCauseTest()
+        public void Create_ExternalCause_Ok()
         {
             //Arrange
             //Act
@@ -93,7 +93,7 @@ namespace Entities.Test
         /// Prueba la creación de una forma de entrega de un medicamento
         /// </summary>
         [Fact]
-        public void FfmTest()
+        public void Create_Ffm_Ok()
         {
             //Arrange
             //Act
@@ -105,7 +105,7 @@ namespace Entities.Test
         /// Prueba la creación de una finalidad
         /// </summary>
         [Fact]
-        public void FinalityTest()
+        public void Create_Finality_Ok()
         {
             //Arrange
             //Act
@@ -117,7 +117,7 @@ namespace Entities.Test
         /// Prueba la creación de un formato
         /// </summary>
         [Fact]
-        public void FormatTest()
+        public void Create_Format_Ok()
         {
             //Arrange
             //Act
@@ -129,7 +129,7 @@ namespace Entities.Test
         /// Prueba la creación de un género
         /// </summary>
         [Fact]
-        public void GenreTest()
+        public void Create_Genre_Ok()
         {
             //Arrange
             //Act
@@ -141,7 +141,7 @@ namespace Entities.Test
         /// Prueba la creación de un grupo de CIE10
         /// </summary>
         [Fact]
-        public void GroupCie10Test()
+        public void Create_GroupCie10_Ok()
         {
             //Arrange
             //Act
@@ -153,7 +153,7 @@ namespace Entities.Test
         /// Prueba la creación de una vía de ingreso
         /// </summary>
         [Fact]
-        public void IngressViaTest()
+        public void Create_IngressVia_Ok()
         {
             //Arrange
             //Act
@@ -165,7 +165,7 @@ namespace Entities.Test
         /// Prueba la creación de un medicamento alternativo
         /// </summary>
         [Fact]
-        public void IumTest()
+        public void Create_Ium_Ok()
         {
             //Arrange
             //Act
@@ -177,7 +177,7 @@ namespace Entities.Test
         /// Prueba la creación de un tipo de medicamento
         /// </summary>
         [Fact]
-        public void MedicineTypeTest()
+        public void Create_MedicineType_Ok()
         {
             //Arrange
             //Act
@@ -189,7 +189,7 @@ namespace Entities.Test
         /// Prueba la creación de una modalidad
         /// </summary>
         [Fact]
-        public void ModalityTest()
+        public void Create_Modality_Ok()
         {
             //Arrange
             //Act
@@ -201,7 +201,7 @@ namespace Entities.Test
         /// Prueba la creación de un tipo de servicio no establecido
         /// </summary>
         [Fact]
-        public void OtherServiceTypeTest()
+        public void Create_OtherServiceType_Ok()
         {
             //Arrange
             //Act
@@ -213,7 +213,7 @@ namespace Entities.Test
         /// Prueba la creación de un parámetro
         /// </summary>
         [Fact]
-        public void ParameterTest()
+        public void Create_Parameter_Ok()
         {
             //Arrange
             //Act
@@ -225,7 +225,7 @@ namespace Entities.Test
         /// Prueba la creación de un tipo de paciente
         /// </summary>
         [Fact]
-        public void PatientTypeTest()
+        public void Create_PatientType_Ok()
         {
             //Arrange
             //Act
@@ -237,7 +237,7 @@ namespace Entities.Test
         /// Prueba la creación de un tipo de pago
         /// </summary>
         [Fact]
-        public void PaymentTypeTest()
+        public void Create_PaymentType_Ok()
         {
             //Arrange
             //Act
@@ -249,7 +249,7 @@ namespace Entities.Test
         /// Prueba la creación de una pregunta de antecedentes personales
         /// </summary>
         [Fact]
-        public void PersonalBackgroundQuestionTest()
+        public void Create_PersonalBackgroundQuestion_Ok()
         {
             //Arrange
             //Act
@@ -261,7 +261,7 @@ namespace Entities.Test
         /// Prueba la creación de un procedimiento
         /// </summary>
         [Fact]
-        public void ProcedureTest()
+        public void Create_Procedure_Ok()
         {
             //Arrange
             //Act
@@ -273,7 +273,7 @@ namespace Entities.Test
         /// Prueba la creación de un tipo de pregunta
         /// </summary>
         [Fact]
-        public void QuestionTypeTest()
+        public void Create_QuestionType_Ok()
         {
             //Arrange
             //Act
@@ -285,7 +285,7 @@ namespace Entities.Test
         /// Prueba la creación de una relación
         /// </summary>
         [Fact]
-        public void RelationshipTest()
+        public void Create_Relationship_Ok()
         {
             //Arrange
             //Act
@@ -297,7 +297,7 @@ namespace Entities.Test
         /// Prueba la creación de un servicio
         /// </summary>
         [Fact]
-        public void ServiceTest()
+        public void Create_Service_Ok()
         {
             //Arrange
             //Act
@@ -309,7 +309,7 @@ namespace Entities.Test
         /// Prueba la creación de un grupo de servicio
         /// </summary>
         [Fact]
-        public void ServiceGroupTest()
+        public void Create_ServiceGroup_Ok()
         {
             //Arrange
             //Act
@@ -321,7 +321,7 @@ namespace Entities.Test
         /// Prueba la creación de un departamento
         /// </summary>
         [Fact]
-        public void StateTest()
+        public void Create_State_Ok()
         {
             //Arrange
             //Act
@@ -333,7 +333,7 @@ namespace Entities.Test
         /// Prueba la creación de un subgrupo de CIE10
         /// </summary>
         [Fact]
-        public void SubGroupCie10Test()
+        public void Create_SubGroupCie10_Ok()
         {
             //Arrange
             //Act
@@ -345,7 +345,7 @@ namespace Entities.Test
         /// Prueba la creación de una medida de medicamento
         /// </summary>
         [Fact]
-        public void UmmTest()
+        public void Create_Umm_Ok()
         {
             //Arrange
             //Act
@@ -357,7 +357,7 @@ namespace Entities.Test
         /// Prueba la creación de una medida mímima de medicamento dispensada
         /// </summary>
         [Fact]
-        public void UprTest()
+        public void Create_Upr_Ok()
         {
             //Arrange
             //Act
@@ -369,7 +369,7 @@ namespace Entities.Test
         /// Prueba la creación de un usuario
         /// </summary>
         [Fact]
-        public void UserTest()
+        public void Create_User_Ok()
         {
             //Arrange
             //Act
@@ -381,7 +381,7 @@ namespace Entities.Test
         /// Prueba la creación de una zona
         /// </summary>
         [Fact]
-        public void ZoneTypeTest()
+        public void Create_ZoneType_Ok()
         {
             //Arrange
             //Act
@@ -393,7 +393,7 @@ namespace Entities.Test
         /// Prueba la creación de una enfermedad
         /// </summary>
         [Fact]
-        public void Cie10Test()
+        public void Create_Cie10_Ok()
         {
             //Arrange
             //Act
@@ -405,7 +405,7 @@ namespace Entities.Test
         /// Prueba la creación de una ciudad
         /// </summary>
         [Fact]
-        public void CityTest()
+        public void Create_City_Ok()
         {
             //Arrange
             //Act
@@ -417,7 +417,7 @@ namespace Entities.Test
         /// Prueba la creación de una pregunta de historia clínica
         /// </summary>
         [Fact]
-        public void ClinicHistoryQuestionTest()
+        public void Create_ClinicHistoryQuestion_Ok()
         {
             //Arrange
             //Act
@@ -429,7 +429,7 @@ namespace Entities.Test
         /// Prueba la creación de un médico
         /// </summary>
         [Fact]
-        public void DoctorTest()
+        public void Create_Doctor_Ok()
         {
             //Arrange
             //Act
@@ -441,7 +441,7 @@ namespace Entities.Test
         /// Prueba la creación de un estado civil
         /// </summary>
         [Fact]
-        public void CivilStateTest()
+        public void Create_CivilState_Ok()
         {
             //Arrange
             //Act
@@ -453,7 +453,7 @@ namespace Entities.Test
         /// Prueba la creación de un paciente
         /// </summary>
         [Fact]
-        public void PatientTest()
+        public void Create_Patient_Ok()
         {
             //Arrange
             //Act
@@ -465,7 +465,7 @@ namespace Entities.Test
         /// Prueba la creación de una historia clínica
         /// </summary>
         [Fact]
-        public void ClinicHistoryTest()
+        public void Create_ClinicHistory_Ok()
         {
             //Arrange
             //Act
@@ -477,7 +477,7 @@ namespace Entities.Test
         /// Prueba la creación de una urgencia
         /// </summary>
         [Fact]
-        public void EmergencyTest()
+        public void Create_Emergency_Ok()
         {
             //Arrange
             //Act
@@ -489,7 +489,7 @@ namespace Entities.Test
         /// Prueba la creación de un antecedente familiar
         /// </summary>
         [Fact]
-        public void FamilyBackgroundTest()
+        public void Create_FamilyBackground_Ok()
         {
             //Arrange
             //Act
@@ -501,7 +501,7 @@ namespace Entities.Test
         /// Prueba la creación de un medicamento
         /// </summary>
         [Fact]
-        public void MedicineTest()
+        public void Create_Medicine_Ok()
         {
             //Arrange
             //Act
@@ -513,7 +513,7 @@ namespace Entities.Test
         /// Prueba la creación de una respuesta de antecedente personal
         /// </summary>
         [Fact]
-        public void PersonalBackgroundAnswerTest()
+        public void Create_PersonalBackgroundAnswer_Ok()
         {
             //Arrange
             //Act
@@ -525,7 +525,7 @@ namespace Entities.Test
         /// Prueba la creación de un procedimiento a un paciente
         /// </summary>
         [Fact]
-        public void ProcedureToPatientTest()
+        public void Create_ProcedureToPatient_Ok()
         {
             //Arrange
             //Act
@@ -537,7 +537,7 @@ namespace Entities.Test
         /// Prueba la creación de una consulta a un paciente
         /// </summary>
         [Fact]
-        public void QueryTest()
+        public void Create_Query_Okt()
         {
             //Arrange
             //Act
@@ -549,7 +549,7 @@ namespace Entities.Test
         /// Prueba la creación de una cotización
         /// </summary>
         [Fact]
-        public void QuoteTest()
+        public void Create_Quote_Ok()
         {
             //Arrange
             //Act
@@ -561,12 +561,36 @@ namespace Entities.Test
         /// Prueba la creación de un rol
         /// </summary>
         [Fact]
-        public void RoleTest()
+        public void Create_Role_Ok()
         {
             //Arrange
             //Act
             //Assert
             Assert.IsType<Role>(new Role());
+        }
+
+        /// <summary>
+        /// Prueba la creación de un log de base de datos
+        /// </summary>
+        [Fact]
+        public void Create_LogDb_Ok()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<LogDb>(new LogDb());
+        }
+
+        /// <summary>
+        /// Prueba la creación de un log de componentes
+        /// </summary>
+        [Fact]
+        public void Create_LogComponent_Ok()
+        {
+            //Arrange
+            //Act
+            //Assert
+            Assert.IsType<LogComponent>(new LogComponent());
         }
     }
 }
