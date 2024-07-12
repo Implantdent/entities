@@ -33,7 +33,7 @@
         /// <summary>
         /// SQL ejecutado en la acción
         /// </summary>
-        public string Sql { get; set; }
+        public string Values { get; set; }
 
         /// <summary>
         /// Usuario que realiza la acción
@@ -50,7 +50,7 @@
             Action = ' ';
             TableId = 0;
             Table = string.Empty;
-            Sql = string.Empty;
+            Values = string.Empty;
             User = new User();
         }
     }
